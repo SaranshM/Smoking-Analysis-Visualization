@@ -46,7 +46,7 @@ male_smoking.addEventListener("click",() => {
         data: {
             labels: year,
             datasets: [{
-                label: '# of Votes',
+                label: "Percentage of Males",
                 data: male,
                 backgroundColor: [
                     getRandomColor()
@@ -163,7 +163,7 @@ female_smoking.addEventListener("click",() => {
         data: {
             labels: year,
             datasets: [{
-                label: '# of Votes',
+                label: 'Percentage of Females',
                 data: female,
                 backgroundColor: [
                     getRandomColor()
@@ -280,7 +280,7 @@ malevfemale.addEventListener("click",() => {
         data: {
             labels: year,
             datasets: [{
-                label: '# of Votes',
+                label: "Percentage of females",
                 data: female,
                 backgroundColor: [
                     "transparent"
@@ -290,7 +290,7 @@ malevfemale.addEventListener("click",() => {
                 ],
                 borderWidth: 2
             },{
-                label: '# of Votes',
+                label: 'Percentage of Males',
                 data: male,
                 backgroundColor: [
                     "transparent"
@@ -319,7 +319,7 @@ malevfemale.addEventListener("click",() => {
         data: {
             labels: year,
             datasets: [{
-                label: '# of Votes',
+                label: 'Percentage of females',
                 data: female,
                 backgroundColor: [
                     getRandomColor()
@@ -334,7 +334,7 @@ malevfemale.addEventListener("click",() => {
                 ],
                 borderWidth: 1
             },{
-                label: '# of Votes',
+                label: 'Percentage of males',
                 data: male,
                 backgroundColor: [
                     getRandomColor()
