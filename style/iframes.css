@@ -25,3 +25,25 @@
     z-index: 1;
     display: none;
 }
+
+.upper_down {
+    padding:0.25%;
+    background-color: white;
+    position: relative;
+    top:-115px;
+    z-index: 110;
+    display: block;
+    width:73%;
+    margin: 0 auto;
+}
+
+.upper_down2 {
+    padding:0.5%;
+    background-color: white;
+    position: relative;
+    top:-79px;
+    z-index: 110;
+    display: block;
+    width:73%;
+    margin: 0 auto;
+}
