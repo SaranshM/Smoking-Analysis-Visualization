@@ -134,6 +134,8 @@ male_smoking.addEventListener("click",() => {
 
     document.getElementsByClassName("analysis")[2].style.display = "block";
     document.getElementsByClassName("analysis")[3].style.display = "block";
+    document.getElementsByClassName("analysis")[2].innerHTML = "This is a radar graph with years from 1984 to 2018 on the circumference and the percentage of male smokers increasing radially.<br><br>This visualization clearly shows that over the years from 1984 to 2018, the percentage of men smoking have reduced almost consistently.<br><br>An important observation is that the percentage men smoking takes a huge dip from year 1986 to 1987 but thereafter it decreases gradually. This is attributed to the fact that the awareness about the dangers about smoking started making an impact from the 1980s and thus the percentage of people smoking decreased drastically.<br><br>In the recent times, the percentage men smoking has fluctuated, but overall it has been decreasing."
+    document.getElementsByClassName("analysis")[3].innerHTML = "This pie chart shows the distribution of male smokers around the world in each decade from 1980 to present times.<br><br>Clearly, the decade from 1990 to 2000 had the most percentage of men smoking since in most countries at that time the trade bans were removed which led drastic increase in import/export of tobacco and hence rate increased.<br><br>The percentage decreased in the forthcoming decades, but the decrease was gradual."
 })
 
 female_smoking.addEventListener("click",() => {
@@ -249,6 +251,8 @@ female_smoking.addEventListener("click",() => {
 
     document.getElementsByClassName("analysis")[2].style.display = "block";
     document.getElementsByClassName("analysis")[3].style.display = "block";
+    document.getElementsByClassName("analysis")[2].innerHTML = "This is a radar graph with years from 1984 to 2018 on the circumference and the percentage of female smokers increasing radially.<br><br>This visualization clearly shows that over the years from 1984 to 2018, the percentage of women smoking have reduced almost consistently.<br><br>An important observation is that the percentage women smoking takes a huge dip from year 1985 to 1987 but thereafter it decreases gradually. This is attributed to the fact that the awareness about the dangers about smoking started making an impact from the 1980s and thus the percentage of people smoking decreased drastically.<br><br>In the recent times, the percentage women smoking has been consistently decreasing, but gradually attributed to the awareness about smoking.";
+    document.getElementsByClassName("analysis")[3].innerHTML = "This pie chart shows the distribution of female smokers around the world in each decade from 1980 to present times.<br><br>Clearly, the decade from 1990 to 2000 had the most percentage of women smoking since in most countries at that time the trade bans were removed which led drastic increase in import/export of tobacco and hence rates increased.<br><br>The percentage decreased in the forthcoming decades, and took a huge dip in the current decade."
 })
 
 malevfemale.addEventListener("click",() => {
@@ -360,5 +364,7 @@ malevfemale.addEventListener("click",() => {
 
     document.getElementsByClassName("analysis")[2].style.display = "block";
     document.getElementsByClassName("analysis")[3].style.display = "block";
+    document.getElementsByClassName("analysis")[2].innerHTML = "This is a multi-line graph between the percentage of men and women smokers around the world from the year 1984 to 2018.<br><br>We see a similar pattern in the two lines of men and women ie both have decreased since 1984 which proves that the anti-smoking campaigns were able to reach both men and women equally.<br><br>Although, its  a trivial observation that the percentage of men smoking has always been greater than women smoking in every year and it is predicted that it will be so for a few decades."
+    document.getElementsByClassName("analysis")[3].innerHTML = "This is a radar graph between the percentage of men and women smokers around the world from the year 1984 to 2018.<br><br>This graph gives an insight on the radial distance between the percentage of men smokers and women smokers and how the gap has evolutionaized over the years.<br><br>The gap was very less from the years 1984 to around 1994, but after that we see that the difference has increased but has remained constant.<br><br>The trend is very clear, that the percentage smokers around the world are decreasing, we must make sure that the anti-smoking campaigns keep creating awareness and come up with solutions such that the decrease in the smokers comes down rapidly and make this world a better, healthier place to live in."
 })
 
