@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Smoking Visualization and Analysis</title>
+        <link rel="stylesheet" href="style/iframes.css">
+        <link rel="stylesheet" href="style/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading">
+            <h1>TRENDS OF SMOKIING AND IT’S AFFECTS AROUND THE WORLD</h1>
+        </div>
+        <div class="buttons">
+            <div class="button_box">
+                <button id = "male_smoking" class="button">Percentage men smoking from 1984 - 2018</button>
+            </div>
+            <div class="button_box">
+                <button id = "female_smoking" class="button">Percentage women smoking from 1984 - 2018</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button_box">
+                <button id = "malevfemale" class="button">Smoking - Male v. Female 1984-2018</button>               
+            </div>
+            <div class="button_box">
+                <button id = "death_rate" class="button">Death rate all over the world from 1990 - 2017 (per 100,000)</button>                
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button_box">
+                <button id = "death_age_rate" class="button">Death rate v. Age groups in India from 1990-2017 (per 100,000)</button>                
+            </div>
+            <div class="button_box">
+                <button id = "cancer" class="button">Share of cancer deaths attributed to smoking in 2016</button>                
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button_box">
+                <button id = "bubble_" class="button">Smoking - Men v. Women all over the world in 2016</button>               
+            </div>
+        </div>
+        <div class="iframes">
+            <div class="up"></div>
+            <iframe src="https://ourworldindata.org/grapher/share-of-cancer-deaths-attributed-to-tobacco?time=2016" loading="lazy" style="width: 75%; height: 600px; border: 0px none;" id="cancer_deaths"></iframe>
+            <div class="down"></div>
+            <p class="analysis">pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</p>
+        </div>
+        <div class="iframes">
+            <div class="up"></div>
+            <iframe src="https://ourworldindata.org/grapher/comparing-the-share-of-men-and-women-who-are-smoking" loading="lazy" style="width: 75%; height: 600px; border: 0px none;" id="bubble"></iframe>
+            <div class="down"></div>
+            <p class="analysis">pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</p>
+        </div>
+        <div>
+            <div class="graph">
+                <canvas id="myChart" width="700" height="400"></canvas>
+                <p class="analysis">pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</p>
+            </div>
+            <div class="graph">
+                <canvas id="myChart2" width="700" height="400"></canvas>
+                <p class="analysis">pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</p>
+            </div>
+        </div>
+    </footer>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="js/malevfemale.js"></script>
+    <script src="js/death_rate_smoking.js"></script>
+</html>
